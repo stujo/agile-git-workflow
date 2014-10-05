@@ -3,6 +3,8 @@ agile-git-workflow
 
 A simple GitHub git workflow for agile teams based on issues and pull requests
 
+This workflow does not guarantee a working master, if that is required a staging branch can be used, but that is beyond the scope of this document
+
 #Rules
 1. Never work on ``master``
 2. Pulling ``master`` should never create a merge commit
@@ -120,6 +122,19 @@ Review code and suggest fixes
 ###Approve Pull Request
 This will update master on the remote repo
 
+###Check the Master Merge
+Get the updates
+```
+git checkout master
+git pull origin master
+```
+
+###Re-Run the Test suite
+* Run the test suite on the master branch
+* If problems are found then fix on a new _Feature Branch_
+
+###Close The Issue
+The issue should be automatically linked by the commit comment, close the issue
 
 ###Repeat Feature Process
 Now repeat
