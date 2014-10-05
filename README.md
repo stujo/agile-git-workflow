@@ -85,7 +85,6 @@ Once you have completed your feature you may wish to squash some of your commits
 * Begin the squash:
 ```
 git rebase -i origin/master
-
 ```
 * Inside this first editor session edit the ``pick`` to ``squash`` for all but the top commit, save and quit
 ```
@@ -93,7 +92,6 @@ pick 4dce685 Adding view
 squash 1f5d362 Editing controller
 squash 8ce4813 Adding migration
 squash f66a754 Adding name and role to model
-
 ```
 
 * Inside the send editor session edit the whole commit message to incldue the _Feature Id_ and the _Feature Description_
@@ -104,7 +102,6 @@ squash f66a754 Adding name and role to model
 
 * Adding view ...
 * Editing controller ...
-
 ```
 
 ###Push Your Feature Branch
