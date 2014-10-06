@@ -138,6 +138,11 @@ git pull origin master
 ##Close The Issue
 The issue should be automatically linked by the commit comment, close the issue
 
+##Delete Feature Branch (Optional)
+You can do this immediately to keep the repo tidy, but you may also choose to wait until later
+* Locally - Using ``git branch -d 123124-short-feature-name``
+* On GitHub - Using the option on the _Pull Request_
+
 ##Now Repeat for the Next _Feature_ 
 At least until the end of the _Sprint_
 
