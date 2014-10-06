@@ -27,7 +27,7 @@ If you do not have write access to the the target repo, then fork it first and t
 git clone CLONE_URL
 ```
 
-###Review Issues
+###Sprint Planning - Prioritize Issues
 The team or Product Owner will need to decide what it is that we are doing and what are the priorities.
 
 For the purposes of the simple workflow the terms _Feature_, _Story_ and _Issue_ are all conflated together to mean a small unit of work which can be completed by a single team member (or pair). In real world projects these terms may represent larger units of work. For this workflow we recommend that all work be iteratively broken down in to small units which can be accomplished relatively quickly by a single team member or pair, and for this documment we shall use the term _Feature_
@@ -36,15 +36,18 @@ The  _Features_ should be expressed in some ordered form in some system. In the 
 
 However it is acheived each _Feature_ should be a short unique indentifier (typically an integer or other code). This _Feature Id_ should be referenced in the _Commit Messages_ and _Feature Branches_
 
-A number of _Features_ may be grouped together into a _Sprint_, but this is optional
+A number of _Features_ may be grouped together into a _Sprint_. 
 
-###Workflow Notes
+Normally _Sprint_ are a repeating 1 to 4 week cycle, generally the team has some idea of how much work it can commit to for the specified amount of time and the team selects that amount of work for the _Sprint_. After a few cycles the team may develop a reasonable estimation process, but just do your best for the first iteration.
+
+###Sprint - Workflow Notes
 Following this start, the _Feature Process_ below should be followed repeatedly until the _Sprint_ is complete
 
 ##Feature Process (Repeat for each _Feature_)
 
 ###Identify the Feature
 In _GitHub Issues_ identify the feature you want to work on and _Assign the Issue_ to yourself
+Normally this would be the _Highest Priority Feature_ which is in the _Sprint_
 
 ###Pull master updates
 Pull the latest updates on your local repo
@@ -136,8 +139,14 @@ git pull origin master
 ###Close The Issue
 The issue should be automatically linked by the commit comment, close the issue
 
-###Repeat Feature Process
-Now repeat
+###Now Repeat for the Next _Feature_
+
+##Sprint Wrapup
+
+###Review
+After the 1 to 4 week cycle the _Sprint_ concludes and the team should conduct a _Review_ of what worked well, what did not and how things might be improved
+
+###Now Repeat for the Next _Sprint_
 
 
 
