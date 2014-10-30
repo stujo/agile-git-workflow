@@ -84,6 +84,8 @@ git rebase origin/master
 ```
 
 ##Complete your Feature
+__OPTIONAL__ Skip rebase/squash if you are just getting started with git 
+
 Once you have completed your feature you may wish to squash some of your commits together so that your feature can be seen as single commit in the remote repo
 
 * Begin the squash:
